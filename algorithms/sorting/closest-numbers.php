@@ -1,4 +1,6 @@
 <?php
+// From: https://www.hackerrank.com/challenges/closest-numbers
+
 $_fp = fopen("php://stdin", "r");
 $arrayLength = (int) trim(fgets($_fp));
 $array = explode(' ', trim(fgets($_fp)));
